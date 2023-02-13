@@ -1,0 +1,57 @@
+ @import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Yeon+Sung&display=swap');
+*{
+    box-sizing: border-box;
+    font-family:'Prosto One';
+}
+header{
+    text-align: center;
+    background: #FAF7F0;
+    color: #5f78f4;
+    padding: 10px 0;
+}
+.contenedor{
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+    background: #CDFCF6;
+}
+section{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 0;
+    border-color: #BCCEF8;
+    color: #5f78f4;
+}
+label{
+    display: block;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px dashed #5f78f4;
+    margin-bottom: 3px;
+}
+label:hover{
+    background: #BCCEF8;
+}
+button{
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #98A8F8;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+button:hover{
+    background: #5f78f4;
+    color: #CDFCF6;
+}
+h2{
+    text-align: center;
+}
+#resultado{
+    font-size: 30px;
+    color: #5f78f4;
+}
